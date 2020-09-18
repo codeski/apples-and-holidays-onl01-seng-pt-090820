@@ -73,9 +73,10 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
 combine = nil
   holiday_hash.each do |season, holiday|
-    holiday.each do |what, array|
-      binding.pry
     puts season.to_s.capitalize! + ":"
+    holiday.each do |what, array|
+      # binding.pry
+    
     combine = what.to_s.split("_").map do |x|
      x.capitalize!
     end.join(" ")
