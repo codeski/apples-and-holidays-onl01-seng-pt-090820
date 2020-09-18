@@ -80,7 +80,7 @@ combine = nil
      x.capitalize!
     end.join(" ")
     # binding.pry
-    puts "  " + combine
+    puts "  " + combine + ": " + array.join(", ")
   end
 end
 end
