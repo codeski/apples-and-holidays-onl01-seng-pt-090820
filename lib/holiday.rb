@@ -91,7 +91,6 @@ def all_holidays_with_bbq(holiday_hash)
     holiday.map do |value, array|
       if array.include?("BBQ")
       end
-      return value
     end
   end
 end
