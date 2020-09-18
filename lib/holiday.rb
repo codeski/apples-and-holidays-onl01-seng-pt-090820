@@ -71,16 +71,16 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-  var = 
+  var =  puts "  " + 
   holiday_hash.each do |season, holiday|
     holiday.each do |what, array|
       # binding.pry
     puts season.to_s.capitalize! + ":"
-    puts "  " + what.to_s.split("_").map do |x|
+    what.to_s.split("_").map do |x|
      x.capitalize!
    end.join(" ")
     # .capitalize! + ": " + array.join(", ")
-    
+     puts "  " + 
     end
   end
 end
