@@ -78,12 +78,11 @@ combine = nil
     puts season.to_s.capitalize! + ":"
     combine = what.to_s.split("_").map do |x|
      x.capitalize!
-   end.join(" ")
-    # .capitalize! + ": " + array.join(", ")
+    end.join(" ")
     binding.pry
     puts "  " + 
-    end
   end
+end
 end
 
 def all_holidays_with_bbq(holiday_hash)
