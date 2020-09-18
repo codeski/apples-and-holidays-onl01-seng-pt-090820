@@ -79,8 +79,8 @@ combine = nil
     combine = what.to_s.split("_").map do |x|
      x.capitalize!
     end.join(" ")
-    binding.pry
-    # puts "  " + combine
+    # binding.pry
+    puts "  " + combine
   end
 end
 end
